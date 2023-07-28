@@ -1,0 +1,78 @@
+main {
+    width: 1920px;
+    height: 2526px;
+    background-color: #989595;
+}
+.main__container {
+    width: 1359px;
+    height: 2526px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.desc {
+    width: 1359px;
+    height: 804px;
+    background-color: #fff;
+    display: flex;
+}
+.main__img {
+    margin-top: 162px;
+    background-image: url(../images/main__img.png);
+    width: 640px;
+    height: 611px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main__desc {
+}
+h1 {
+    font-size: 30px;
+    margin-top: 162px;
+    margin-bottom: 47px;
+}
+.main__logo {
+    display: flex;
+}
+.main__p {
+    line-height: 1.5;
+}
+.logo__img2 {
+    margin-top: 47px;
+    margin-right: 48px;
+}
+.logo__img1 {
+    margin-top: 47px;
+}
+h3 {
+    margin-top: 20px;
+}
+.img__inner {
+    margin-top: 11px;
+    margin-left: 20px;
+}
+.main__tap {
+    display: flex;
+    margin-top: 83px;
+}
+.brochure,
+.Tech,
+.lineup {
+    width: 184px;
+    height: 54px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+.main__tap div:last-child {
+    margin-right: 0;
+}
+span {
+    font-size: 15px;
+}
+.line {
+    width: 1920px;
+    height: 1px;
+    background-color: #333;
+}

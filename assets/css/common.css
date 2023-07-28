@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    top: 0;
+}
+body {
+    width: 1920px;
+    height: auto;
+    overflow-x: hidden;
+    font-family: NotoSansKR;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+}
