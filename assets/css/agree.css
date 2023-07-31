@@ -1,0 +1,110 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+section {
+    width: 1920px;
+    height: auto;
+}
+.container {
+    width: 1720px;
+    height: auto;
+    margin: 0 auto;
+}
+h4 {
+    padding-top: 100px;
+    font-size: 84px;
+    font-weight: lighter;
+}
+.privacy {
+    font-weight: lighter;
+    padding-top: 90px;
+}
+h5 {
+    font-size: 25px;
+    padding-top: 95px;
+}
+section {
+    padding-bottom: auto;
+}
+.pretendard {
+    font-family: pretendard;
+}
+.dong {
+    width: 8px;
+    height: 8px;
+    background-color: #404b41;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-right: 11px;
+}
+.flex {
+    display: flex;
+    padding-bottom: 10px;
+}
+.flexin {
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+h5 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+h6 {
+    font-size: 20px;
+    color: #111111;
+    padding-bottom: 10px;
+    padding-top: 79px;
+}
+.zoo {
+    padding-bottom: 20px;
+}
+p {
+    padding-bottom: 25px;
+}
+.day {
+    padding-top: 25px;
+    padding-bottom: 140px;
+}
+br.pc {
+    display: block;
+}
+br.mo {
+    display: none;
+}
+@media (max-width: 360px) {
+    br.pc {
+        display: none;
+    }
+    br.mo {
+        display: block;
+    }
+    section {
+        width: 360px;
+    }
+    .container {
+        width: 320px;
+    }
+    h4 {
+        font-size: 35px;
+    }
+    .privacy {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .one {
+    }
+    h5 {
+        font-size: 16px;
+    }
+    .zoo {
+        font-size: 13px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .flexin {
+        font-size: 13px;
+    }
+    .flex {
+        font-size: 13px;
+    }
+}

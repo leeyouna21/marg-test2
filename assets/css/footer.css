@@ -47,3 +47,43 @@ footer {
     align-items: center;
     margin-top: 10px;
 }
+br.pc {
+    display: block;
+}
+br.mo {
+    display: none;
+}
+@media (max-width: 360px) {
+    br.pc {
+        display: none;
+    }
+    br.mo {
+        display: block;
+    }
+    footer {
+        width: 360px;
+    }
+    .footer__container {
+        width: 360px;
+    }
+    .footer__inner {
+        display: block;
+        margin-left: 15px;
+    }
+    .footer__desc {
+        padding-top: 42px;
+        margin-left: 5px;
+        font-size: 13px;
+        line-height: 2;
+    }
+    .footer__box {
+        width: 360px;
+        margin-left: 5px;
+        display: flex;
+        padding-top: 43px;
+        padding-bottom: 32px;
+    }
+    .pri {
+        margin: 10px 10px;
+    }
+}
