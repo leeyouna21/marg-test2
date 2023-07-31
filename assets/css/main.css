@@ -1,11 +1,14 @@
+table {
+    border-collapse: collapse;
+}
+
 main {
     width: 1920px;
-    height: 2526px;
-    background-color: #989595;
+    height: 2700px;
 }
 .main__container {
     width: 1359px;
-    height: 2526px;
+    height: auto;
     background-color: #fff;
     margin: 0 auto;
 }
@@ -75,4 +78,119 @@ span {
     width: 1920px;
     height: 1px;
     background-color: #333;
+}
+.main__container2 {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.header__line {
+    width: 64px;
+    height: 1px;
+    background-color: #999999;
+    position: absolute;
+    left: 300px;
+    top: 250px;
+}
+.hh4 {
+    position: absolute;
+    left: 322px;
+    top: 100px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 26px;
+}
+@media (max-width: 1280px) {
+    .header__bg {
+        width: 100%;
+        position: relative;
+    }
+    img {
+        width: 100%;
+        height: 300px;
+    }
+    .header__line {
+        position: absolute;
+        left: 15px;
+        bottom: 0;
+        width: 56px;
+    }
+    .hh4 {
+        position: absolute;
+        left: 30px;
+        bottom: 0;
+        font-size: 18px;
+    }
+    main {
+        width: 100%;
+    }
+    .desc {
+        display: block;
+    }
+    .main__img {
+        width: 330px;
+        height: 357px;
+        margin-top: -80px;
+    }
+    h1 {
+        margin-top: 0;
+        padding-left: 15px;
+    }
+    .main__p {
+        line-height: 0;
+        font-size: 17px;
+        color: #333333;
+        padding-left: 15px;
+        font-weight: normal;
+        font-family: NotoSansKR;
+    }
+    .logo__img2 {
+        width: 70px;
+        height: 70px;
+        padding-left: 15px;
+        margin-top: 8px;
+    }
+    .logo__img1 {
+        width: 70px;
+        height: 70px;
+        padding-left: 15px;
+        margin-top: 8px;
+    }
+    .main__tap {
+        width: 100%;
+        padding-left: 15px;
+        margin-top: 20px;
+    }
+    .brochure,
+    .Tech,
+    .lineup {
+        font-size: 16px;
+        width: 103px;
+        height: 40px;
+    }
+    h3 {
+        padding-left: 15px;
+    }
+    .img__inner {
+        font-size: 17px;
+        padding-left: 20px;
+        margin-top: 0;
+    }
+    .title {
+        margin-left: -60px;
+        margin-top: -60px;
+    }
+    table {
+        width: 330px;
+        margin-left: -60px;
+    }
+    tr {
+        height: 40px;
+        font-size: 12px;
+        font-weight: bold;
+    }
 }

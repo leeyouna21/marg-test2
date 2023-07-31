@@ -70,6 +70,9 @@ br.pc {
 br.mo {
     display: none;
 }
+.mob {
+    font-size: 16px;
+}
 @media (max-width: 360px) {
     br.pc {
         display: none;
@@ -100,11 +103,19 @@ br.mo {
     }
     p {
         font-size: 13px;
+        line-height: 1.5;
     }
     .flexin {
         font-size: 13px;
     }
     .flex {
         font-size: 13px;
+    }
+    .in2 {
+        font-size: 13px;
+    }
+    .mob {
+        font-size: 13px;
+        padding-left: 15px;
     }
 }
