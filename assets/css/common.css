@@ -7,9 +7,10 @@ body {
     height: auto;
     overflow-x: hidden;
     font-family: NotoSansKR;
+    overflow-x: hidden;
 }
 a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     outline: none;
 }

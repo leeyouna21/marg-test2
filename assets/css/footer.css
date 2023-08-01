@@ -53,6 +53,46 @@ br.pc {
 br.mo {
     display: none;
 }
+@media (max-width: 1280px) {
+    br.pc {
+        display: none;
+    }
+    br.mo {
+        display: block;
+    }
+    footer {
+        width: 100%;
+    }
+    .footer__container {
+        width: 100%;
+        position: relative;
+    }
+    .footer__inner {
+        display: block;
+        position: absolute;
+        left: 50px;
+        top: 0;
+    }
+    .footer__desc {
+        padding-top: 42px;
+        margin-left: 5px;
+        font-size: 13px;
+        /* line-height: 2; */
+    }
+    .footer__box {
+        width: 360px;
+        margin-left: 5px;
+        display: flex;
+        padding-top: 43px;
+        padding-bottom: 32px;
+    }
+    .pri {
+        margin: 10px 10px;
+    }
+    .line {
+        width: 100%;
+    }
+}
 @media (max-width: 360px) {
     br.pc {
         display: none;

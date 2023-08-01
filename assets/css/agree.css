@@ -73,7 +73,7 @@ br.mo {
 .mob {
     font-size: 16px;
 }
-@media (max-width: 360px) {
+@media (max-width: 1280px) {
     br.pc {
         display: none;
     }
@@ -81,41 +81,41 @@ br.mo {
         display: block;
     }
     section {
-        width: 360px;
+        width: 100%;
     }
     .container {
-        width: 320px;
+        width: 93%;
     }
     h4 {
-        font-size: 35px;
+        font-size: 70px;
     }
     .privacy {
-        font-size: 12px;
+        font-size: 22px;
         line-height: 1.5;
     }
     .one {
     }
     h5 {
-        font-size: 16px;
+        font-size: 30px;
     }
     .zoo {
-        font-size: 13px;
+        font-size: 23px;
     }
     p {
-        font-size: 13px;
+        font-size: 23px;
         line-height: 1.5;
     }
     .flexin {
-        font-size: 13px;
+        font-size: 23px;
     }
     .flex {
-        font-size: 13px;
+        font-size: 23px;
     }
     .in2 {
-        font-size: 13px;
+        font-size: 23px;
     }
     .mob {
-        font-size: 13px;
-        padding-left: 15px;
+        font-size: 23px;
+        padding-left: 25px;
     }
 }

@@ -1,10 +1,15 @@
 table {
     border-collapse: collapse;
 }
-
+tr {
+    font-weight: bold;
+}
 main {
     width: 1920px;
     height: 2700px;
+}
+.pria {
+    color: #fff;
 }
 .main__container {
     width: 1359px;
@@ -105,6 +110,85 @@ span {
     margin-bottom: 26px;
 }
 @media (max-width: 1280px) {
+    main {
+        width: 100%;
+        height: 3000px;
+    }
+    .main__container {
+        width: 1280px;
+    }
+    .desc {
+        display: block;
+    }
+    .main__img {
+        width: 600px;
+        height: 700px;
+        margin-top: 10px;
+        margin-left: -100px;
+    }
+    .main__desc {
+        position: relative;
+    }
+    h1 {
+        margin-top: 0;
+        padding-left: 15px;
+    }
+    .main__p {
+        line-height: 0;
+        font-size: 17px;
+        color: #333333;
+        padding-left: 15px;
+        font-weight: bold;
+        font-family: NotoSansKR;
+    }
+    .main__logo1 {
+        width: 120px;
+        height: 220px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main__logo2 {
+        width: 100px;
+        height: 220px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo__img2 {
+        margin-left: 45px;
+    }
+    h3 {
+        text-align: center;
+    }
+    .img__inner {
+        margin-right: 20px;
+    }
+    .main__container2 {
+        width: 100%;
+        padding-top: 350px;
+    }
+    .title {
+        margin-left: -60px;
+    }
+    table {
+        width: 800px;
+        height: 200px;
+        margin-left: -70px;
+    }
+    tr {
+        height: 40px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .line {
+        width: 100%;
+    }
+    .main__tap {
+        margin-top: 30px;
+    }
+}
+/* @media (max-width: 1280px) {
     .header__bg {
         width: 100%;
         position: relative;
@@ -132,7 +216,7 @@ span {
         display: block;
     }
     .main__img {
-        width: 330px;
+        width: 360px;
         height: 357px;
         margin-top: -80px;
     }
@@ -185,7 +269,7 @@ span {
         margin-top: -60px;
     }
     table {
-        width: 330px;
+        width: 360px;
         margin-left: -60px;
     }
     tr {
@@ -193,4 +277,7 @@ span {
         font-size: 12px;
         font-weight: bold;
     }
-}
+    .line {
+        width: 100%;
+    }
+} */
