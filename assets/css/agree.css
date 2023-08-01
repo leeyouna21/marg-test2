@@ -119,3 +119,58 @@ br.mo {
         padding-left: 25px;
     }
 }
+@media (max-width: 360px) {
+    header {
+        width: 360px;
+    }
+    .header__container {
+        width: 340px;
+    }
+    ul {
+        display: none;
+    }
+    .ham {
+        margin-right: -80px;
+    }
+    .header__logo {
+        margin-left: -40px;
+    }
+    section {
+        width: 360px;
+    }
+    .container {
+        width: 340px;
+    }
+    h4 {
+        font-size: 35px;
+    }
+    .privacy {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .one {
+    }
+    h5 {
+        font-size: 15px;
+    }
+    .zoo {
+        font-size: 13px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .flexin {
+        font-size: 13px;
+    }
+    .flex {
+        font-size: 13px;
+    }
+    .in2 {
+        font-size: 13px;
+    }
+    .mob {
+        font-size: 13px;
+        padding-left: 15px;
+    }
+}

@@ -94,6 +94,9 @@ br.mo {
     }
 }
 @media (max-width: 360px) {
+    .line {
+        width: 360px;
+    }
     br.pc {
         display: none;
     }
@@ -105,20 +108,18 @@ br.mo {
     }
     .footer__container {
         width: 360px;
+        margin-left: -25px;
     }
     .footer__inner {
         display: block;
-        margin-left: 15px;
     }
     .footer__desc {
         padding-top: 42px;
-        margin-left: 5px;
         font-size: 13px;
         line-height: 2;
     }
     .footer__box {
         width: 360px;
-        margin-left: 5px;
         display: flex;
         padding-top: 43px;
         padding-bottom: 32px;
